@@ -81,12 +81,6 @@ const webpackConfig = {
       {
         test: /\.(mp4|webm|avi|mov)$/i,
         type: 'asset/inline',
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: '[name].[ext]',
-          }
-        }
       }
     ]
   },
