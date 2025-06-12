@@ -13,7 +13,7 @@ if (fs.existsSync(tsConfigPath)) {
 }
 
 /** @type {string[]} List of file extensions that webpack will resolve */
-const allowedExtensions = ['.ts', '.tsx', '.js', '.json', '.png', '.glb', '.fbx', '.obj', '.jpg', '.mp3', '.svg', '.css', '.gif', '.mp4'];
+const allowedExtensions = ['.ts', '.tsx', '.js', '.json', '.png', '.glb', '.fbx', '.obj', '.jpg', '.mp3', '.svg', '.css', '.gif', '.mp4', '.wav'];
 
 /** @type {import('webpack').Configuration} Base webpack configuration used by both development and build configs */
 const webpackConfig = {
