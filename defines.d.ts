@@ -6,6 +6,8 @@ declare module '*.gltf';
 declare module '*.fbx';
 declare module '*.obj';
 declare module '*.mp3';
+declare module '*.mp4';
+declare module '*.wav';
 
 declare const AD_NETWORK:
   | 'preview'
